@@ -31,7 +31,7 @@ echo 'prod unencrypted stuff' > prod_encrypt_me.txt
 ansible-vault encrypt --vault-id prod@prompt prod_encrypt_me.txt
 ```
 
-View
+View `dev_encrypt_me.txt` file with the prompt ansible vault password
 ```
 ansible-vault view --vault-id dev@prompt dev_encrypt_me.txt 
 ```
