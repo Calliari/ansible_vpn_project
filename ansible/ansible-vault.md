@@ -20,6 +20,7 @@ ansible-vault decrypt --vault-password-file vault_pass.yml encrypt_me.txt
 
 
 <hr>
+
 Ansible vault with id for multiples env
 Encrypting:
 ```
